@@ -2,7 +2,7 @@
 path c:\python27;c:\python27\Scripts;%path%
 cls
 color 0F
-echo This will install Tahoe-LAFS 1.10.1a1.post12
+echo This will install Tahoe-LAFS 1.10.1b1
 echo it may not work after installation already failed
 echo press the anykey button
 pause
@@ -13,7 +13,7 @@ If Exist ..\Tahoe.home. goto gohome
 cls
 color 0E
 echo please copy the tahoe-winstlog directory 
-echo in the home directory of Tahoe-Lafs 1.10.1a1
+echo in the home directory of Tahoe-Lafs 1.10.1b1
 echo installation failed
 echo press the anykey button
 pause
@@ -29,7 +29,7 @@ cls
 color F0
 echo we are in the right directory
 echo i start now the installscript of 
-echo Tahoe-LAFS 1.10.1a1.post12
+echo Tahoe-LAFS 1.10.1b1
 echo will last 3-5 Min
 echo press the anykey button
 pause 
@@ -46,8 +46,7 @@ echo Please restart Windows or
 echo logout your user account and login again
 echo Start the test-script at 
 echo Windows/Start/Programms/Tahoe-LAFS/Tahoe-LAFS-Test (.cmd)
-echo Windows/Start/Programms/Tahoe-LAFS-Test (.cmd)
 
 
-pause
+
 :exit
